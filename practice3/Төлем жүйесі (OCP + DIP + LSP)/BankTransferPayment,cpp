@@ -1,0 +1,6 @@
+class BankTransferPayment : public IPayment {
+public:
+    void processPayment(double amount) override {
+        cout << "Paid " << amount << " by Bank Transfer" << endl;
+    }
+};
