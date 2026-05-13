@@ -34,9 +34,9 @@ public:
 };
 
 class ZhaluziOnCommand : public ICommand {
-    TV* tv;
+    Zhaluzi* zhaluzi;
 public:
-    ZhaluziOnCommand(TV* t) { tv = t; }
+    ZhaluziOnCommand(Zhaluzi* z) { zhaluzi = z; }
 
     void execute() { tv->on(); }
     void undo() { tv->off(); }
