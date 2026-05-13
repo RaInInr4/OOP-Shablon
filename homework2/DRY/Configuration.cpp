@@ -44,3 +44,10 @@ public:
         std::cout << "Вызов API: " << url << std::endl;
     }
 };
+
+
+
+
+
+
+
